@@ -2,14 +2,14 @@ import {Text, View} from 'react-native';
 import React, {Component} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 
-import Index from './src_01_StyleSheet';
+// import Index from './src_01_StyleSheet';
 
-// import Index from "./src_02_Flexbox/flex"
+// import Index from './src_02_Flexbox/flex';
 // import Index from "./src_02_Flexbox/flexDirection"
 // import Index from "./src_02_Flexbox/justifyContent"
 // import Index from "./src_02_Flexbox/alignItems"
 
-//  import Index from "./src_03_Demisions/index"
+ // import Index from "./src_03_Demisions/index"
 
 // import Index from "./src_04_Alert_Button/index"
 
@@ -19,7 +19,7 @@ import Index from './src_01_StyleSheet';
 
 // import Index from "./src_10_scrollView/index"
 
-// import Index from "./src_11_SectionLit/index"
+import Index from "./src_11_SectionLit/index"
 
 // import Index from './src_22_StackNavigator/index';
 // import Index from "./src_23_BottomTabs/index"
