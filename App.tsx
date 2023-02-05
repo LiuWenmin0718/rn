@@ -19,7 +19,9 @@ import {NavigationContainer} from '@react-navigation/native';
 
 // import Index from "./src_10_scrollView/index"
 
-import Index from "./src_11_SectionLit/index"
+// import Index from "./src_11_SectionLit/index"
+
+import Index from "./src_12_FlatLit/index"
 
 // import Index from './src_22_StackNavigator/index';
 // import Index from "./src_23_BottomTabs/index"

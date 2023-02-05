@@ -5,20 +5,20 @@ import { StyleSheet, Text, View, SafeAreaView, SectionList } from "react-native"
 // 以后自己组织数据也按照此模板
 const DATA = [
   {
-    title: "Main dishes",
-    data: ["Pizza", "Burger", "Risotto"]
+    title: "新闻",
+    data: ["频道1", "频道2", "频道3"]
   },
   {
-    title: "Sides",
-    data: ["French Fries", "Onion Rings", "Fried Shrimps"]
+    title: "财经",
+    data: ["频道1", "频道2", "频道3"]
   },
   {
-    title: "Drinks",
-    data: ["Water", "Coke", "Beer"]
+    title: "娱乐",
+    data: ["频道1", "频道2"]
   },
   {
-    title: "Desserts",
-    data: ["Cheese Cake", "Ice Cream"]
+    title: "军事",
+    data: ["频道1", "频道2"]
   }
 ];
 
@@ -52,6 +52,7 @@ class App extends Component {
     }
 
     render() {
+
         return (
         <SafeAreaView style={styles.container}>
             <SectionList
@@ -63,7 +64,7 @@ class App extends Component {
                 )}
 
                 ItemSeparatorComponent={()=>{
-                    //   生命项目之间的分隔符
+                    //   声明项目之间的分隔符
                     return <View style={{borderBottomWidth: 1, borderBottomColor: 'red'}}></View>
                 }}
                 ListEmptyComponent={()=>{
